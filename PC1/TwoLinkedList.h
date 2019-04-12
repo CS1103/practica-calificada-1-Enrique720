@@ -1,7 +1,3 @@
-//
-// Created by ruben on 4/12/19.
-//
-
 
 #ifndef UNTITLED_TWOLINKEDLIST_H
 #define UNTITLED_TWOLINKEDLIST_H
@@ -27,6 +23,7 @@ namespace UTEC {
         node *tail2;
         node *tail;
         TwoLinkedList();
+
         void push_back1(int valor);
         void push_back2(int valor);
         void print();
@@ -39,3 +36,4 @@ namespace UTEC {
 }
 
 #endif //UNTITLED_TWOLINKEDLIST_H
+
